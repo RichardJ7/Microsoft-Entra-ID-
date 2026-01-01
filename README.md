@@ -6,4 +6,6 @@ To begin these labs, an Azure subscription must be acquired first. For the purpo
 <img width="1435" height="709" alt="Entra Org Users" src="https://github.com/user-attachments/assets/bbebf2b4-0c0d-4f9b-8d0a-8c168803c53c" />
 <img width="1439" height="697" alt="Entra Org Roles " src="https://github.com/user-attachments/assets/0a0ad5d4-e974-4a37-a919-180ce078c1b7" />
 <img width="1439" height="694" alt="Entra Org PIM" src="https://github.com/user-attachments/assets/cf8407bb-2154-4200-b1d9-141de5ce0ec1" />
-<h2>Entra Lab Table of Contents </h2>
+<h2> Lab Table of Contents </h2>
+
+[User Creation and Role Assignment](Labs/User_Creation_and_Role_Assignment.md)
