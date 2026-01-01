@@ -6,11 +6,14 @@ After the initial setup of Microsoft Entra ID and the operating organization for
 
 ## Implementation Steps
 
-1. Sign in to Azure utilizing the organization account as the Global Administrator.
-2. Navigate to the menu on the left side of the screen and press the drop down menu button labeled Entra ID. There should be multiple options once expanded. Click on the Users section.
-3. On this page, select the new user button and then select create new user.
-4. Begin inputting the required information starting with 'User principal name', 'mail nickname' which has included a box titled 'derived from user principal name'. Uncheck that box and put the complete mail nickname. Then, input 'display name' and 'password'. This password will not be automatically generated so that option can also be unchecked.
-5. Next, select review+create. The following screen should prompt another create option which will also be selected. The new user should now be present in the organization.
-6. Navigate to the 'Users' section under the Entra menu and then select 'All Users'. The new created user may not appear immediately so refresh the page. Once the user appears, select the user's profile.
-7. A new menu will appear underneath the user's profile with options similar to the Entra menu under the tenant. Select the option 'Assigned Roles'
+1. Signed-in to Azure utilizing the organization account that was created as the Global Administrator. 
+2. Navigated to the menu on the left side of the screen and pressedd the drop down menu labeled 'Entra ID'. There should be multiple options once expanded. Then I clicked on the 'Users' section. 
+3. Selected the 'New User' option and then selected 'Create New User'. 
+4. Began inputting the required information starting with 'User principal name', 'Mail Nickname', which included a box titled 'Derived from user principal name' and unchecked that box. Then, input 'Display Name' and 'Password'. I opted to not auto-generate the password so I unchecked that box as well. 
+5. Next, selected the option 'Review + Create'. The following screen prompted another 'Create' option which was also selected. The new user appeared in the organization. Occasionally, the user may not appear immediately. If so, I refreshed the page and checked again to confirm. 
+6. Navigated to the 'Users' section under the Entra menu and then select 'All Users'. Selected the user that was added and accessed the user's profile. 
+7. A new menu appeared underneath the user's profile with options similar to the Entra menu under the tenant. Selected the option 'Assigned Roles'.
+8. After selecting 'Assigned Roles', selected the option titled 'Add Assignments'. From the dropdown menu, I assigned the role of Application Administrator. I adjusted the settings after to assign this user the role for the maximum duration and selected the box titled 'Permanently eligible.'
+
+
 
