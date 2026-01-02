@@ -9,3 +9,5 @@ To begin these labs, an Azure subscription must be acquired first. For the purpo
 <h2> Lab Table of Contents </h2>
 
 [User Creation and Role Assignment](Labs/User_Creation_and_Role_Assignment.md)
+
+[Controlling Permissions](Labs/Controlling_Permissions.md) 
