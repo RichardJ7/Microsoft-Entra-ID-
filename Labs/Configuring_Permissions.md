@@ -24,5 +24,8 @@ After the new user has been created and granted a role assignment, the user's pe
 
 #### Part 2: Configuring Permissions
 
-1. 
+1. The user Chris Marks was assigned a preconfigured role through Entra as opposed to a custom role. It should be noted that roles that are automatically created through Entra cannot have their permissions edited. To maintain least privilege, I had to ensure that the permissions for the role did not exceed the scope of the intended purpose. To verify the permissions of the Application Administrator role, I first navigated to the 'Roles & admins' section under the Entra dashboard. This then opened the 'All roles' section by default where I was able to see a list of all preconfigured roles through Entra. Next, I searched for the Application Administrator role and utilized the options feature all the way to the right of the listed role. It was labeled 'Description' which I then selected.
 
+<img width="1440" height="697" alt="Permissions Description" src="https://github.com/user-attachments/assets/7afb2545-a799-4cb9-9848-261e5cdc1205" />
+
+2. After, I went through the permissions of this role extensively to determine which permissiosns were necessary and which permissions exceeded the scope of the intended role.
