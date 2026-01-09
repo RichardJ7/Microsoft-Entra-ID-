@@ -29,7 +29,7 @@ After the new user has been created and granted a role assignment, the user's pe
 <img width="1440" height="697" alt="Permissions Description" src="https://github.com/user-attachments/assets/7afb2545-a799-4cb9-9848-261e5cdc1205" />
 
 2. After, I went through the permissions of this role extensively to determine which permissions were necessary and which permissions exceeded the scope of the intended role.
-3. Because the organization being used is solely for the purposes of the lab, the role of Application Administrator is currently not a necessary role now. But to display least privilege in practice, I proceeded to create a new custom role that utilized the permissions of Application Administrator but with limited permissions to prevent a potential privilege creep. I achieved this by first returning to the permissions description listed under Application Administrator and documenting all the permissions that I deemed essential for this hypothetical scenario.
+3. Because the organization being used is solely for the purposes of the lab, the role of Application Administrator is currently not a necessary role now. But to display least privilege in practice, I proceeded to create a new custom role that utilized the permissions of Application Administrator but with limited permissions to prevent the potential risk of privileges extending beyond what is necessary. I achieved this by first returning to the permissions description listed under Application Administrator and documenting all the permissions that I deemed essential for this hypothetical scenario.
 
 <img width="1437" height="695" alt="App Admin Perm list" src="https://github.com/user-attachments/assets/243842a4-b24e-4d7a-b63b-ec83c3483fc4" />
 
@@ -37,4 +37,14 @@ After the new user has been created and granted a role assignment, the user's pe
 
 <img width="1440" height="655" alt="Custom Role pt1" src="https://github.com/user-attachments/assets/7ae31228-5578-4222-a0c5-bab1179a5122" />
 
-5. Because I read the full permission list of the actual Application Administrator role, I decided that this new custom role did not need the full extent of the permissions granted. I then selected the permissions individually that I wanted applied to the role. 
+5. Because I read the full permission list of the actual Application Administrator role, I decided that this new custom role did not need the full extent of the permissions granted. I then selected the permissions individually that I wanted applied to the role.
+
+<img width="1437" height="698" alt="Custom Role 2" src="https://github.com/user-attachments/assets/887bf991-564e-474e-ae4b-5452926244fc" />
+<img width="1436" height="693" alt="Custom Role 3" src="https://github.com/user-attachments/assets/81996d8c-9970-4777-806c-703264cdf55a" />
+
+6. After I finished selecting the pertinent permissions for the role I selected the option 'Review and Create'. The new role then appeared under the list of all roles. I then went back to the user list and selected the user Chris Marks who I have been utilizing in this scenario. I proceeded to assign the new custom role to Chris. Because the new role was created to limit the risk of privileges exceeding what is necessary for the basic functions of a job, I had to remove the built-in role of Application Administrator.
+
+<img width="1440" height="692" alt="Custom Role Assignment" src="https://github.com/user-attachments/assets/f1a796b7-702b-4c36-90aa-ab9fbfd93e45" />
+
+
+<img width="1440" height="692" alt="Role Removal" src="https://github.com/user-attachments/assets/f5d54002-a389-4e26-b071-9cb338b2a0d1" />
