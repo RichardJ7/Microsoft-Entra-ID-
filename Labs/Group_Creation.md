@@ -1,2 +1,2 @@
 # Group Creation
-## Introduction
+## Summary
