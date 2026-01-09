@@ -28,4 +28,13 @@ After the new user has been created and granted a role assignment, the user's pe
 
 <img width="1440" height="697" alt="Permissions Description" src="https://github.com/user-attachments/assets/7afb2545-a799-4cb9-9848-261e5cdc1205" />
 
-2. After, I went through the permissions of this role extensively to determine which permissiosns were necessary and which permissions exceeded the scope of the intended role.
+2. After, I went through the permissions of this role extensively to determine which permissions were necessary and which permissions exceeded the scope of the intended role.
+3. Because the organization being used is solely for the purposes of the lab, the role of Application Administrator is currently not a necessary role now. But to display least privilege in practice, I proceeded to create a new custom role that utilized the permissions of Application Administrator but with limited permissions to prevent a potential privilege creep. I achieved this by first returning to the permissions description listed under Application Administrator and documenting all the permissions that I deemed essential for this hypothetical scenario.
+
+<img width="1437" height="695" alt="App Admin Perm list" src="https://github.com/user-attachments/assets/243842a4-b24e-4d7a-b63b-ec83c3483fc4" />
+
+4. Next, I returned to the 'Roles & admins' section from the Entra dashboard. I then selected the option at the top labeled 'New custom role'. I filled in the values necessary starting with 'Name' and 'Description'. Since this role is entirely fabricated for the sake of the scenario, I checked the Baseline permissions option of 'Start from scratch' because I do not have a custom role to clone it from and then proceeded by selecting 'Next' at the bottom of the screen.
+
+<img width="1440" height="655" alt="Custom Role pt1" src="https://github.com/user-attachments/assets/7ae31228-5578-4222-a0c5-bab1179a5122" />
+
+5. Because I read the full permission list of the actual Application Administrator role, I decided that this new custom role did not need the full extent of the permissions granted. I then selected the permissions individually that I wanted applied to the role to
