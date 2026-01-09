@@ -37,4 +37,4 @@ After the new user has been created and granted a role assignment, the user's pe
 
 <img width="1440" height="655" alt="Custom Role pt1" src="https://github.com/user-attachments/assets/7ae31228-5578-4222-a0c5-bab1179a5122" />
 
-5. Because I read the full permission list of the actual Application Administrator role, I decided that this new custom role did not need the full extent of the permissions granted. I then selected the permissions individually that I wanted applied to the role to
+5. Because I read the full permission list of the actual Application Administrator role, I decided that this new custom role did not need the full extent of the permissions granted. I then selected the permissions individually that I wanted applied to the role. 
