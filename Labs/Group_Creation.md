@@ -20,4 +20,16 @@ This lab was intended to exemplify the ability to create groups within Microsoft
 
 <img width="1440" height="698" alt="Add User to Group" src="https://github.com/user-attachments/assets/9f2d3de6-3f23-4c00-b861-83fd0f26c0d3" />
 
-3. Because I started with the Microsoft 365 group, I then began to replicate the group creation process however this time the group was a security group. 
+3. Because I started with the Microsoft 365 group, I then began to replicate the group creation process however this time I created a security group that will have different roles and users. Additionally, I created two other users to add to this group to differentiate between roles and to simplify the remainder of the lab that included group licensing assignments.
+
+<img width="1439" height="696" alt="Create Security Group" src="https://github.com/user-attachments/assets/99a21597-88ca-4d96-bd54-a22c57c65684" />
+
+<img width="1440" height="692" alt="Security Group Owner" src="https://github.com/user-attachments/assets/07ae1361-7ebc-48e0-8664-db444867cba0" />
+
+<img width="1440" height="682" alt="Security Group Users" src="https://github.com/user-attachments/assets/7bec8370-b984-476a-ad32-6cc3a7a8d6c6" />
+
+4. Now that I effectively created both groups and added users to both, I was ready to proceed with the second half of the lab which involved licenses.
+
+### Part 2: Managing Licenses
+
+1. 
