@@ -11,3 +11,6 @@ To begin these labs, an Azure subscription must be acquired first. For the purpo
 [User Creation and Role Assignment](Labs/User_Creation_and_Role_Assignment.md)
 
 [Configuring Permissions](Labs/Controlling_Permissions.md) 
+
+[Group Creaion and Licenses](Labs/Group_Creation_and_Licenses.md)
+
