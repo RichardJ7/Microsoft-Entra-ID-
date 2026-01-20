@@ -14,3 +14,4 @@ To begin these labs, an Azure subscription must be acquired first. For the purpo
 
 [Group Creation and Licenses](Labs/Group_Creation_and_Licenses.md)
 
+[MFA and Conditional Access](Labs/MFA_and_Conditional_Access.md) 
