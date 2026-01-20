@@ -40,4 +40,10 @@ This lab focused on configuring Multifactor Authentication and utilizing Conditi
 
 You can view the Conditional Access policy creation here! [Conditional Access Tutorial](https://vimeo.com/1156325629/b784f45505?fl=ip&fe=ec)
 
+### Security Rationale
 
+To prevent threat actors from compromising user credentials, multifactor authentication should be enabled to mitigate the risk. Conditional Access is an alternative method utilized to require multifactor authentication but with granular access controls. If I wished to implement controls that are trigged upon specific events or actions, then Conditional Access is necessary. 
+
+### Lessons Learned 
+
+I learned how to properly implement multifactor authentication which must be done through Entra ID once accessed through the Azure portal. I also learned how to configure Conditional Access and just how stringent the policy can be created. Lastly, I learned that Conditional Access cannot be implemented without the disabling of security defaults. The decision to implement Conditional Access must be thoroughly assessed because security defaults provide the most secure posture within the Entra environment, which prior to this lab I was unaware of. 
