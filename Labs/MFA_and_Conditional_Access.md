@@ -1,4 +1,4 @@
-# MFA and Conditional Access
+# Multifactor Authentication
 
 ## Summary
 
@@ -30,7 +30,7 @@ This lab focused on configuring Multifactor Authentication and utilizing Conditi
 
 <img width="1436" height="696" alt="MFA pt 4" src="https://github.com/user-attachments/assets/7f6df477-4afa-4177-bdb9-197275424116" />
 
-#### Part 2: Conditional Access
+#### Part 2: MFA with Conditional Access
 
 1. To access Conditional Access, I had to return to the Azure portal and selected Entra ID again. I then navigated to 'Security' again and while within this section, I had to find the option for Conditional Access. I found the option under the menu section titled 'Protect'. 
 
