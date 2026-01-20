@@ -29,3 +29,12 @@ This lab focused on configuring Multifactor Authentication and utilizing Conditi
 <img width="1440" height="694" alt="MFA Pt 3" src="https://github.com/user-attachments/assets/babcde79-a561-4d88-9a47-345a5d4af4a3" />
 
 <img width="1436" height="696" alt="MFA pt 4" src="https://github.com/user-attachments/assets/7f6df477-4afa-4177-bdb9-197275424116" />
+
+#### Part 2: Conditional Access
+
+1. To access Conditional Access, I had to return to the Azure portal and selected Entra ID again. I then navigated to 'Security' again and while within this section, I had to find the option for Conditional Access. I found the option under the menu section titled 'Protect'. 
+
+<img width="1429" height="670" alt="Conditional Access pt1" src="https://github.com/user-attachments/assets/752337c2-75f7-4d3b-90ad-482bd2294ae4" />
+
+2. Now that I successfully accessed Conditional Access for the organization, I proceeded to select 'Create New Policy'. I then configured the policy accordingly to enable multifactor authentication within the organization and based on specific conditions. It should be noted that configuring Conditional Access may require the disabling of security defaults before proceeding with the establishment of the new policy. If so, follow the prompts on the screen necessary understanding that security defaults provide an enhanced security posture through preconfigured settings established through Microsoft.
+
