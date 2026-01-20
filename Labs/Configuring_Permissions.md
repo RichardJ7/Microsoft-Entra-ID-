@@ -48,3 +48,11 @@ After the new user has been created and granted a role assignment, the user's pe
 
 
 <img width="1440" height="692" alt="Role Removal" src="https://github.com/user-attachments/assets/f5d54002-a389-4e26-b071-9cb338b2a0d1" />
+
+### Security Rationale
+
+The second part of this lab was completed to establish a limitation to the permissions of users. Some of the permissions that are granted to the preconfigured Entra roles are expansive. If certain permissions are not necessary to grant to users, then best practice would be to avoid granting them. Alternatively, the option to create a custom role would provide a solution to limiting permissions but also ensuring that the role being assigned can complete their job without issue. 
+
+### Lessons Learned
+
+I learned how to search the descriptions of the preconfigured Entra roles. The lab helped me to understand the available Entra roles and how I can clone these roles during the creation of custom roles, but with limitations. 
