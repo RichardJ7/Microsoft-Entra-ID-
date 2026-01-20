@@ -58,10 +58,10 @@ This lab was intended to exemplify the ability to create groups within Microsoft
 
 <img width="1440" height="676" alt="License Confirmation" src="https://github.com/user-attachments/assets/9b9c0aa1-f05e-458c-ab62-7f4343914408" />
 
-### Security Rationale 
+## Security Rationale 
 
 Certain actions or access within Entra is only granted if the necessary licenses are assigned. I had to confirm that the proper licenses were assigned to the group properly. If licenses are not properly assigned including the correct number of licenses correlated to the number of users within the group, then potentially groups with a particular role may not be able to function properly or have correct access. 
 
-### Lessons Learned 
+## Lessons Learned 
 
 I learned how to assign licenses to groups accordingly. The Microsoft 365 admin center is where group licensing is controlled. This lab provided me with that information and also, confirmed that the Entra P1 and P2 licenses are required for group licensing. 
