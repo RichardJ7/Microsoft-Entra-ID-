@@ -4,7 +4,7 @@
 
 After the initial setup of Microsoft Entra ID and the operating organization for the ensuing labs, the first task is creating a user through Entra ID. Goal of this lab was to learn how to create users within a tenant. After the user is created then explore the ability to add role assignments for the new user. This lab should result in familiarity with the processes related to role assignments and the creation of users. 
 
-## Implementation Steps
+### Implementation Steps
 
 1. Signed in to Azure utilizing the organization account that was created as the Global Administrator. 
 2. Navigated to the menu on the left side of the screen and pressed the drop-down menu labeled 'Entra ID'. There should be multiple options once expanded. Then I clicked on the 'Users' section. 
@@ -30,6 +30,12 @@ After the initial setup of Microsoft Entra ID and the operating organization for
 
 <img width="1432" height="695" alt="Add Assignment1" src="https://github.com/user-attachments/assets/7bbc4758-a78a-4385-ba0a-bfb71090aa21" />
 
+### Security Rationale 
 
+Since this was the first task I completed after creating the tenant, I had to ensure that I did not create a user with permissions that exceeded what was necessary. This was the first user, and as the creator of the tenant, I was automatically assigned the role of Global Administrator. I decided to assign a role that would not result in expansive security permissions, however I did assign a role that was privileged to designate an administrator that was capable of managing the applications the tenant would be utilizing. 
+
+### Lessons Learned 
+
+I learned how to create users within the tenant but also how to assign roles to these users. Additionally, I learned how to navigate the Entra ID dashboard and improved my familiarity within the admin center. 
 
 
