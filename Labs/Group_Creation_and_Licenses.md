@@ -20,7 +20,7 @@ This lab was intended to exemplify the ability to create groups within Microsoft
 
 <img width="1440" height="698" alt="Add User to Group" src="https://github.com/user-attachments/assets/9f2d3de6-3f23-4c00-b861-83fd0f26c0d3" />
 
-3. Because I started with the Microsoft 365 group, I then began to replicate the group creation process however this time I created a security group that will have different roles and users. Additionally, I created two other users to add to this group to differentiate between roles and to simplify the remainder of the lab that included group licensing assignments.
+3. Because I started with the Microsoft 365 group, I then began to replicate the group creation process however, this time I created a security group that will have different roles and users. Additionally, I created two other users to add to this group to differentiate between roles and to simplify the remainder of the lab that included group licensing assignments.
 
 <img width="1439" height="696" alt="Create Security Group" src="https://github.com/user-attachments/assets/99a21597-88ca-4d96-bd54-a22c57c65684" />
 
@@ -36,7 +36,7 @@ This lab was intended to exemplify the ability to create groups within Microsoft
 
 <img width="1439" height="692" alt="Admin Group License pt1" src="https://github.com/user-attachments/assets/74a833f6-5f82-4c67-8729-f77b8ca01707" />
 
-2. Because I have no licennses assigned to the group, I had to utilize the [Microsoft 365 admin center](http://admin.microsoft.com) to assign a license to this group. While within the admin center, licenses are accessed through the menu option labeled 'Billing' and then 'Licenses'.
+2. Because I have no licenses assigned to the group, I had to utilize the [Microsoft 365 admin center](http://admin.microsoft.com) to assign a license to this group. While within the admin center, licenses are accessed through the menu option labeled 'Billing' and then 'Licenses'.
 
 <img width="1438" height="698" alt="365 Admin Center" src="https://github.com/user-attachments/assets/c962fff8-527b-4865-9fd0-05571ba2597e" />
 
@@ -54,6 +54,14 @@ This lab was intended to exemplify the ability to create groups within Microsoft
 
 <img width="1440" height="695" alt="Adding Licenses pt2" src="https://github.com/user-attachments/assets/26a59201-3959-4442-ac01-0dc0017fff3d" />
 
-5. The licenses were assigned through the 365 admin center but I wanted to confirm that it was properly assigned and applied in Entra. I returned to the Entra admin center and navigated back to the 'Sales Admin Group'. I then repeated verified under the 'Licenses' options within the group profile that the license was indeed there. This license can be removed from the group entirely through the 365 admin center without affecting any of the individual user's license assignments since the license does not conflict with preexisting licenses and is also not contingent on an add-on. 
+5. The licenses were assigned through the 365 admin center but I wanted to confirm that it was properly assigned and applied in Entra. I returned to the Entra admin center and navigated back to the 'Sales Admin Group'. I then  verified under the 'Licenses' options within the group profile that the license was indeed there. This license can be removed from the group entirely through the 365 admin center without affecting any of the individual user's license assignments since the license does not conflict with preexisting licenses and is also not contingent on an add-on. 
 
 <img width="1440" height="676" alt="License Confirmation" src="https://github.com/user-attachments/assets/9b9c0aa1-f05e-458c-ab62-7f4343914408" />
+
+### Security Rationale 
+
+Certain actions or access within Entra is only granted if the necessary licenses are assigned. I had to confirm that the proper licenses were assigned to the group properly. If licenses are not properly assigned including the correct number of licenses correlated to the number of users within the group, then potentially groups with a particular role may not be able to function properly or have correct access. 
+
+### Lessons Learned 
+
+I learned how to assign licenses to groups accordingly. The Microsoft 365 admin center is where group licensing is controlled. This lab provided me with that information and also, confirmed that the Entra P1 and P2 licenses are required for group licensing. 
