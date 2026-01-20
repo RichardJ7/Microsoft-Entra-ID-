@@ -6,4 +6,26 @@ This lab focused on configuring Multifactor Authentication and utilizing Conditi
 
 ### Implementation Steps
 
-1. MFA can only be configured if either the Microsoft Entra ID P1 or P2 license is acquired. I acquired the P2 license upon the creation of this tenant with the intention of utilizing features, such as the aforementioned MFA. I first began by confirming that the feature was available which required me to first log in to the Azure portal. 
+#### Part 1: Enabling Multifactor Authentication
+
+1. MFA can only be configured if either the Microsoft Entra ID P1 or P2 license is acquired. I acquired the P2 license upon the creation of this tenant with the intention of utilizing features, such as the aforementioned MFA. I first began by confirming that the feature was available which required me to first sign in to the Azure portal then navigate to the Entra ID dashboard.
+
+<img width="1438" height="689" alt="Azure Portal " src="https://github.com/user-attachments/assets/d4dc07e2-c9a2-487a-a49d-f68e1e1f8286" />
+
+2. After I accessed Entra ID through the Azure portal, I then proceeded to access the 'Security' tab located to the left underneath the Entra ID menu. While within 'Security', I selected the 'Manage' drop down menu which revealed the option for 'Multifactor Authentication', which was also selected.
+
+<img width="1437" height="675" alt="Azure Portal pt2" src="https://github.com/user-attachments/assets/39cc9890-763c-412b-8bd0-8e6351cc7cfe" />
+
+<img width="1439" height="672" alt="Azure portal pt3" src="https://github.com/user-attachments/assets/06d21ada-35c7-4982-a465-ca2b5cdf0373" />
+
+3. Next, I accessed the option underneath 'Configure' labeled 'Additional cloud-based multifactor authentication settings' which then populated all of the available users that were in the organization.
+
+<img width="1438" height="691" alt="MFA pt 1" src="https://github.com/user-attachments/assets/78266ebe-c4d5-414c-a477-affe4579b9f7" />
+
+<img width="1440" height="698" alt="MFA Pt 2 " src="https://github.com/user-attachments/assets/1beb3717-e0d6-41d4-9a7a-ce632d223397" />
+
+4. Next to the 'Users' option was the option for 'Service settings'. While within service settings, I configured the MFA settings based on how I intended the deployment to operate.
+
+<img width="1440" height="694" alt="MFA Pt 3" src="https://github.com/user-attachments/assets/babcde79-a561-4d88-9a47-345a5d4af4a3" />
+
+<img width="1436" height="696" alt="MFA pt 4" src="https://github.com/user-attachments/assets/7f6df477-4afa-4177-bdb9-197275424116" />
