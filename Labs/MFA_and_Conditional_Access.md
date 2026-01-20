@@ -36,5 +36,8 @@ This lab focused on configuring Multifactor Authentication and utilizing Conditi
 
 <img width="1429" height="670" alt="Conditional Access pt1" src="https://github.com/user-attachments/assets/752337c2-75f7-4d3b-90ad-482bd2294ae4" />
 
-2. Now that I successfully accessed Conditional Access for the organization, I proceeded to select 'Create New Policy'. I then configured the policy accordingly to enable multifactor authentication within the organization and based on specific conditions. It should be noted that configuring Conditional Access may require the disabling of security defaults before proceeding with the establishment of the new policy. If so, follow the prompts on the screen necessary understanding that security defaults provide an enhanced security posture through preconfigured settings established through Microsoft.
+2. Now that I successfully accessed Conditional Access for the organization, I proceeded to select 'Create New Policy'. I then configured the policy accordingly to enable multifactor authentication within the organization and based on specific conditions. It should be noted that configuring Conditional Access may require the disabling of security defaults before proceeding with the establishment of the new policy. If so, follow the prompts on the screen necessary understanding that security defaults provide an enhanced security posture through preconfigured settings established through Microsoft. 
+
+You can view the Conditional Access policy creation here! [Conditional Access Tutorial](https://vimeo.com/1156325629/b784f45505?fl=ip&fe=ec)
+
 
