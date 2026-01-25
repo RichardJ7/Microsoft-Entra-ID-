@@ -36,4 +36,8 @@ The purpose of the lab was to configure external collaboration within the tenant
 
 ## Security Rationale
 
-There would be instances that a tenant would need to add collaborators outside of the organization. These collaborators however could not have permissions and access that could r
+There would be instances that a tenant would need to add collaborators outside of the organization. These collaborators however could not have permissions and access that are comparable to an internal user. I configured the external users and guest to have access to the resources of the organization but without any privileged or administrative responsibilities. 
+
+## Lessons Learned
+
+This lab helped me improve how to identify the role of guest users within the tenant. Additionally, it helped me with familiarizing myself with how to create an external identity and adjust the initial settings to create a restricted guest user. 
