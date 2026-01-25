@@ -16,3 +16,5 @@ To begin these labs, an Azure subscription must be acquired first. For the purpo
 
 [Multifactor Authentication](Labs/Multifactor_Authentication.md)
 
+[External Identities and Guest Users](Labs/External_Identities_and_Guest_Users.md)
+
