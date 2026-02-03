@@ -18,3 +18,4 @@ To begin these labs, an Azure subscription must be acquired first. For the purpo
 
 [External Identities and Guest Users](Labs/External_Identities_and_Guest_Users.md)
 
+[Authentication and Access Management Solutions](Labs/Authentication_and_Access_Management_Solutions.md) 
