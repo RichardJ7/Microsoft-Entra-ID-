@@ -20,3 +20,5 @@ This lab was created to provide two common solutions that aid in protecting the 
 <img width="1440" height="701" alt="SSPR pt 3" src="https://github.com/user-attachments/assets/745f2796-44d8-4171-8aed-e2d3ec9d743c" />
 
 <img width="1440" height="702" alt="SSPR pt  4" src="https://github.com/user-attachments/assets/c3f3b3a3-5bb8-4b56-b742-db2af518137e" /> 
+
+4. After I finished configuring SSPR for this group, I needed to register SSPR and ensure that it works properly. To confirm I opened this link, https://aka.ms/ssprsetup in a separate private browsing session to make sure that I would be requried to authenticate. 
