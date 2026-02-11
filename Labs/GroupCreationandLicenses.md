@@ -2,7 +2,7 @@
 
 ## Summary
 
-This lab was intended to exemplify the ability to create groups within Microsoft Entra. There are two different groups that can be created within Entra, Security and Microsoft 365. In this lab, I documented the creation of both group types within Entra but also, utilized the group licensing feature and assigned licenses to the configured groups. I document how licenses can be applied to individual users or assigned directly to groups. 
+This lab was intended to exemplify the ability to create groups within Microsoft Entra. There are two different group types that can be created within Entra, Security and Microsoft 365. Additionally, a characteristic of groups is that they can be distinguished by their membership type as either assigned or dynamic. In this lab, I documented the creation of both group types within Entra, the membership types but also, utilized the group licensing feature and assigned licenses to the configured groups. I document how licenses can be applied to individual users or assigned directly to groups. 
 
 ## Implementation Steps 
 
@@ -30,7 +30,27 @@ This lab was intended to exemplify the ability to create groups within Microsoft
 
 4. Now that I effectively created both groups and added users to both, I was ready to proceed with the second half of the lab which involved licenses.
 
-### Part 2: Managing Licenses
+### Part 2: Dynamic Groups 
+
+1. While within the Entra admin center I navigated to the 'Groups' section. I selected 'All groups', then 'New groups'. 
+
+<img width="1440" height="675" alt="Dynamic Group pt1" src="https://github.com/user-attachments/assets/b79ae859-dd06-440a-8bfb-51d8a033d5ff" />
+
+2. On this page, I completed the necessary values to configure the group. I began with the 'Group type' which I selected 'Security'. Then, I named the group 'Dynamic Test'. Lastly, under the 'membership type', I selected 'Dynamic user'.
+
+<img width="1440" height="699" alt="Dynamic Group pt  2" src="https://github.com/user-attachments/assets/3b2e6974-f764-4813-a454-4da968709558" />
+
+3. Since the difference between assigned and dynamic membership types involves attributes values based on a formula, I had to apply a query that would create the query. I selected under the 'Dynamic user members' options 'Add dynamic query' which opened a new menu option that allowed me to now configure the query.
+
+<img width="1440" height="675" alt="Dynamic Group pt3  " src="https://github.com/user-attachments/assets/8b0fa2a4-4bc3-4f2b-bc66-4b240f710536" />
+
+4. I then proceeded to select the edit icon that was right above the box labeled 'Rule syntax' to create the query. I then added this query into the syntax box: user.objectId -ne null
+
+<img width="1440" height="697" alt="Dynamic group pt4  " src="https://github.com/user-attachments/assets/da270caf-32af-4183-bcb6-3bdd4446d861" />
+
+5. After, I saved the query which then returned to the initial group creation page. There I selected 'Create'. The group then appeared under the 'All groups' option. I verified that the query was successful and added all of the users available to this group by selecting the members after opening the group's profile. I saw that all users in the tenant were added to the group thus, the query was effective. 
+
+### Part 3: Managing Licenses
 
 1. First, I navigated to the 'Group' section from within the Entra admin center. I then selected the 'All groups' option and confirmed that both groups appeared as options. I then selected the security group named 'Sales Admin Group'. When I opened this group's profile, I navigated to the 'Licenses' section and confirmed that no licenses were assigned to this group.
 
@@ -60,8 +80,8 @@ This lab was intended to exemplify the ability to create groups within Microsoft
 
 ## Security Rationale 
 
-Certain actions or access within Entra is only granted if the necessary licenses are assigned. I had to confirm that the proper licenses were assigned to the group properly. If licenses are not properly assigned including the correct number of licenses correlated to the number of users within the group, then potentially groups with a particular role may not be able to function properly or have correct access. 
+Different groups serve different purposes. It is fundamental to understand the importance of the different types of groups but also, the different membership types. In large organizations, a large amount of users can be managed and effectively added to groups with the appropriate roles or licenses efficiently by the creation of dynamic groups. Certain actions or access within Entra are only granted if the necessary licenses are assigned. I had to confirm that the proper licenses were assigned to the group properly. If licenses are not properly assigned including the correct number of licenses correlated to the number of users within the group, then potentially groups with a particular role may not be able to function properly or have proper access. 
 
 ## Lessons Learned 
 
-I learned how to assign licenses to groups accordingly. The Microsoft 365 admin center is where group licensing is controlled. This lab provided me with that information and also, confirmed that the Entra P1 and P2 licenses are required for group licensing. 
+The core lesson was how to create groups and differentiating between the membership types. I learned how to assign licenses to groups accordingly. The Microsoft 365 admin center is where group licensing is controlled. Group management improves the ability to manage users granularly that have the same roles or access. This lab provided me with that information helping with administration and also, confirmed that the Entra P1 and P2 licenses are required for group licensing. 
