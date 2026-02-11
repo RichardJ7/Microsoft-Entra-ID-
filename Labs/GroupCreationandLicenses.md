@@ -80,7 +80,7 @@ This lab was intended to exemplify the ability to create groups within Microsoft
 
 ## Security Rationale 
 
-Different groups serve different purposes. It is fundamental to understand the importance of the different types of groups but also, the different membership types. In large organizations, a large amount of users can be managed and effectively added to groups with the appropriate roles or licenses efficiently by the creation of dynamic groups. Certain actions or access within Entra are only granted if the necessary licenses are assigned. I had to confirm that the proper licenses were assigned to the group properly. If licenses are not properly assigned including the correct number of licenses correlated to the number of users within the group, then potentially groups with a particular role may not be able to function properly or have proper access. 
+Different groups serve different purposes. It is fundamental to understand the importance of the different types of groups but also, the different membership types. In large organizations, a large number of users can be managed and effectively added to groups with the appropriate roles or licenses efficiently by the creation of dynamic groups. Certain actions or access within Entra are only granted if the necessary licenses are assigned. I had to confirm that the proper licenses were assigned to the group properly. If licenses are not properly assigned including the correct number of licenses correlated to the number of users within the group, then potentially groups with a particular role may not be able to function properly or have proper access. 
 
 ## Lessons Learned 
 
