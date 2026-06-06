@@ -21,3 +21,7 @@ To preface this lab, a few key points should be noted. First, Conditional Access
 3. Select the option 'Manage security defaults' and then select in the drop down menu that appears to the right 'Disabled'. Then select 'My organization is planning to use Conditional Access' as the reason for disabling. Then, select 'Save' to apply the setting.
 
 <img width="1440" height="710" alt="Disabling Security Defaults pt3  " src="https://github.com/user-attachments/assets/36e58372-ab4a-4fc8-965a-03e4ccfbe6c3" />
+
+#### Part 2: Creating Conditional Access Policies
+
+1. Now that security defaults are disabled, navigate to 'Conditional Access' under the Entra menu blade. 
