@@ -24,4 +24,14 @@ To preface this lab, a few key points should be noted. First, Conditional Access
 
 #### Part 2: Creating Conditional Access Policies
 
-1. Now that security defaults are disabled, navigate to 'Conditional Access' under the Entra menu blade. 
+1. Now that security defaults are disabled, navigate to 'Conditional Access' under the Entra menu blade.
+
+<img width="1437" height="687" alt="CA Policy pt1  " src="https://github.com/user-attachments/assets/1c671264-8ece-42a5-92d2-9c05a2db8efb" />
+
+2. While in the main menu for Conditional Access, select 'Create New Policy'.
+
+3. The creation of the policy begins with first naming the policy.
+
+4. 
+
+You can view the Conditional Access policy creation here! [Conditional Access Tutorial](https://vimeo.com/1156325629/b784f45505?fl=ip&fe=ec)
