@@ -29,9 +29,11 @@ To preface this lab, a few key points should be noted. First, Conditional Access
 <img width="1437" height="687" alt="CA Policy pt1  " src="https://github.com/user-attachments/assets/1c671264-8ece-42a5-92d2-9c05a2db8efb" />
 
 2. While in the main menu for Conditional Access, select 'Create New Policy'.
-
 3. The creation of the policy begins with first naming the policy.
-
-4. 
+4. After naming the policy, you must first configure the 'Assignments', which is who the intended policy is supposed to affect.
+5. Once the assignments are designated, the next selection is 'Target Resources'. These are the resources that the assignments access that trigger the policy to be evaluated.
+6. After, the 'Conditions' must be configured. The 'Conditions' section allows for granular control over what conditions must be met for a user to be either granted or blocked access in the intended policy.
+7. Once the 'Conditions' are selected, the 'Access Controls' must be selected with the option as mentioned being either 'Grant' or 'Block' access.
+8. Finally. the policy must be enabled. Under 'Enable Policy' select 'On'. Note that in actual environments the policies created should first be enabled in Report-only mode to view the implementation of the policies within the environment. Report-only mode allows administrators to view the policy's impact in the environment first through monitoring the sign-in logs and how it affects users. Once the policies impact is evaluated it should be set to 'On'. For Microsoft enabled Conditional Access policies, those set in Report-only mode will be automatically enabled and set to On in 45 days if left in Report-only mode. 
 
 You can view the Conditional Access policy creation here! [Conditional Access Tutorial](https://vimeo.com/1156325629/b784f45505?fl=ip&fe=ec)
