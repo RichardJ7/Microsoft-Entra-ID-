@@ -37,3 +37,13 @@ To preface this lab, a few key points should be noted. First, Conditional Access
 8. Finally. the policy must be enabled. Under 'Enable Policy' select 'On'. Note that in actual environments the policies created should first be enabled in Report-only mode to view the implementation of the policies within the environment. Report-only mode allows administrators to view the policy's impact in the environment first through monitoring the sign-in logs and how it affects users. Once the policies impact is evaluated it should be set to 'On'. For Microsoft enabled Conditional Access policies, those set in Report-only mode will be automatically enabled and set to On in 45 days if left in Report-only mode. 
 
 You can view the Conditional Access policy creation here! [Conditional Access Tutorial](https://vimeo.com/1156325629/b784f45505?fl=ip&fe=ec)
+
+## Security Rationale
+
+In large environments, Conditional Access policies are necessary to control users access to particular resources. Security Defaults provides Microsoft's recommended security features to help protect a tenant. But there are instances where certain features or actions should be granularly controlled to provide a more secure environment of protected resources. Conditional Access policies allow for sessions to be controlled based on risks or requirements for types of authentication strengths in order to be granted access. This level of flexibility provides a more secure environment for larger organizations that contain thousands of users. 
+
+## Lessons Learned
+
+This lab helped me with an understanding of how I can enable Conditional Access and deployment strategies for these policies. While creating the policy, I gained a firm understanding of different types of controls and conditions that can be configured as well as how certain settings interact with each other. For example, through this lab, I learned that while configuring the Authentication context under Grant controls, that requiring MFA cannot be enabled with an authentication strength requirement within the same policy. I gained a better understanding of how to configure a policy and the flexibility while also gaining familiarity with different types of configurations. Ultimately, I learned the importance of Conditional Access in enterprise environments and how they can greatly shape the security posture. 
+
+
