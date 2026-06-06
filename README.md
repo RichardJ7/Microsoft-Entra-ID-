@@ -21,3 +21,5 @@ To begin these labs, an Azure subscription must be acquired first. For the purpo
 [Authentication and Access Management Solutions](Labs/Authentication_and_Access_Management_Solutions.md) 
 
 [Identity Protection](Labs/IdentityProtection.md)
+
+[Conditional Access](https://github.com/RichardJ7/Microsoft-Entra-ID-/blob/834850a2f760bd5f490ae81e39f4210dc8f0105a/Labs/ConditionalAccess.md)
