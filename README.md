@@ -10,7 +10,7 @@ To begin these labs, an Azure subscription must be acquired first. For the purpo
 
 [User Creation and Role Assignment](https://github.com/RichardJ7/Microsoft-Entra-ID-/blob/866212d9c91ae558f65a840ebe22ab7fe2bfe1f8/Labs/UserCreationandRoleAssignment.md)
 
-[Configuring Permissions](Labs/Controlling_Permissions.md) 
+[Configuring Permissions](https://github.com/RichardJ7/Microsoft-Entra-ID-/blob/80ec6a21c710be39e70b41d5f93d3fae055c9464/Labs/ConfiguringPermissions.md)
 
 [Group Creation and Licenses](Labs/Group_Creation_and_Licenses.md)
 
