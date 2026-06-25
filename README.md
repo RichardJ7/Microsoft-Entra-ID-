@@ -12,9 +12,9 @@ To begin these labs, an Azure subscription must be acquired first. For the purpo
 
 [Configuring Permissions](https://github.com/RichardJ7/Microsoft-Entra-ID-/blob/80ec6a21c710be39e70b41d5f93d3fae055c9464/Labs/ConfiguringPermissions.md)
 
-[Group Creation and Licenses](Labs/Group_Creation_and_Licenses.md)
+[Group Creation and Licenses](https://github.com/RichardJ7/Microsoft-Entra-ID-/blob/09d980b7da36236d03f7eb095e8ff4abad9d89c7/Labs/GroupCreationandLicenses.md)
 
-[Multifactor Authentication](Labs/Multifactor_Authentication.md)
+[Multifactor Authentication]
 
 [External Identities and Guest Users](Labs/External_Identities_and_Guest_Users.md)
 
