@@ -16,7 +16,7 @@ To begin these labs, an Azure subscription must be acquired first. For the purpo
 
 [Multifactor Authentication](https://github.com/RichardJ7/Microsoft-Entra-ID-/blob/d2e1ad94ad845741c48934c0696134f621c9da8b/Labs/MultifactorAuthentication.md)
 
-[External Identities and Guest Users](Labs/External_Identities_and_Guest_Users.md)
+[External Identities and Guest Users](https://github.com/RichardJ7/Microsoft-Entra-ID-/blob/5c8ddd9d21b9bb17c7161449efae93d086a7aac5/Labs/ExternalIdentitiesandGuestUsers.md)
 
 [Authentication and Access Management Solutions](Labs/Authentication_and_Access_Management_Solutions.md) 
 
