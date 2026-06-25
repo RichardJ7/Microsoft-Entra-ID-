@@ -18,8 +18,7 @@ To begin these labs, an Azure subscription must be acquired first. For the purpo
 
 [External Identities and Guest Users](https://github.com/RichardJ7/Microsoft-Entra-ID-/blob/5c8ddd9d21b9bb17c7161449efae93d086a7aac5/Labs/ExternalIdentitiesandGuestUsers.md)
 
-[Authentication and Access Management Solutions](Labs/Authentication_and_Access_Management_Solutions.md) 
-
+[Authentication and Access Management Solutions](https://github.com/RichardJ7/Microsoft-Entra-ID-/blob/e71b6044b79ee4f853830c46f0be2e75e09e9703/Labs/AuthenticationandAccessManagementSolutions.md)
 [Identity Protection](Labs/IdentityProtection.md)
 
 [Conditional Access](https://github.com/RichardJ7/Microsoft-Entra-ID-/blob/834850a2f760bd5f490ae81e39f4210dc8f0105a/Labs/ConditionalAccess.md)
