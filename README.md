@@ -26,4 +26,4 @@ To begin these labs, an Azure subscription must be acquired first. For the purpo
 
 [Access Management for Apps](https://github.com/RichardJ7/Microsoft-Entra-ID-/blob/2dd86558181153921a6916445a48d9fb275b4b17/Labs/AccessManagementForApps.md)
 
-[App Registration](https://github.com/RichardJ7/Microsoft-Entra-ID-/blob/5a322847c1e733fb8bc97e08a18226208aed2ccc/Labs/AppRegistration.md)
+[App Registration](https://github.com/RichardJ7/Microsoft-Entra-ID-/blob/a96860b5817514c064ad9f753503e8441b18a3ef/Labs/AppRegistration.md)
