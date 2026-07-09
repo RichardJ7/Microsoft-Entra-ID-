@@ -25,3 +25,5 @@ To begin these labs, an Azure subscription must be acquired first. For the purpo
 [Conditional Access](https://github.com/RichardJ7/Microsoft-Entra-ID-/blob/834850a2f760bd5f490ae81e39f4210dc8f0105a/Labs/ConditionalAccess.md)
 
 [Access Management for Apps](https://github.com/RichardJ7/Microsoft-Entra-ID-/blob/2dd86558181153921a6916445a48d9fb275b4b17/Labs/AccessManagementForApps.md)
+
+[App Registration](https://github.com/RichardJ7/Microsoft-Entra-ID-/blob/5a322847c1e733fb8bc97e08a18226208aed2ccc/Labs/AppRegistration.md)
