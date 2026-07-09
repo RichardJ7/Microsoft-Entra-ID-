@@ -21,4 +21,11 @@ The purpose of an app registration is to establish a trust relationship between 
 
 5. Finally, I selected 'Register' to complete the registration completion.
 
+### Security Rationale 
+
+Applications cannot interact with Microsoft services within the tenant or APIs without having a registration to form the trust relationship with the Entra identity platform. By creating the registration, that trust connection is established ultimately providing the ability to integrate with Microsoft securely and applying identity and access management of the application. The registration of the application allows for the configuration of certificates, secrets and assignable roles directly to the application. Additionally, the configuration of redirect URIs. 
+
+### Lessons Learned
+
+Through the completion of this lab, I learned how to create a registration for an application in an enterprise environment and gained familiarity with the granularities of application settings customization. 
 
