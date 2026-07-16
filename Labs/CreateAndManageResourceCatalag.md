@@ -2,7 +2,7 @@
 
 ## Summary 
 
-This lab displays the creation and management of a catalog within Entra. Catalogs contain resources and access packagaes that can be distributed to different members in a production environment, which is important while overseeing entitlement management. 
+This lab displays the creation and management of a catalog within Entra. Catalogs contain resources and access packages that can be distributed to different members in a production environment, which is important while overseeing entitlement management. 
 
 ### Implementation Steps
 
