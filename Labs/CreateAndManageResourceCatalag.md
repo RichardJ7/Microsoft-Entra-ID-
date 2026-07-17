@@ -8,4 +8,6 @@ This lab displays the creation and management of a catalog within Entra. Catalog
 
 Before beginning this lab, it is important to note that entitlement management requires either a Microsoft Entra ID P2 license or Microsoft Entra ID Governance license. I have already acquired a P2 license to provide me with greater capabilities within this learning environment. 
 
-1. First,
+#### Part 1: Creating a Catalog 
+
+1. First, 
