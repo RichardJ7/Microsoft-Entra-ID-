@@ -38,6 +38,9 @@ It is important to note that access reviews are only available with at least the
 
 ### Security Rationale
 
-Access reviews are essential in production environments. Users can be given permissions or access to resources for a particular project and once the project is completed, they still have those permissions. This is a security risk because users now have permissions that exceed their daily role. Stale permissions can jeopardize a production environment, thus one of the most effective practices in preventing the security issues related to stale permissions
+Access reviews are essential in production environments. Users can be given permissions or access to resources for a particular project and once the project is completed, they still have those permissions. This is a security risk because users now have permissions that exceed their daily role. Stale permissions can jeopardize a production environment, thus one of the most effective practices in preventing the security issues related to stale permissions are access reviews. By periodically reviewing user's access, you can oversee whether that user's access is justified or not. 
 
+### Lessons Learned 
+
+This lab helped me with the understanding of access reviews and the granularities of the settings. I was able to gain a good understanding of the settings that can be adjusted and a better understanding of how to properly scope an access review. 
 
