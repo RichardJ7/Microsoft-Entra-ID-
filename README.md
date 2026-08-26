@@ -31,3 +31,5 @@ To begin these labs, an Azure subscription must be acquired first. For the purpo
 [Create and Manage a Resource Catalog](https://github.com/RichardJ7/Microsoft-Entra-ID-/blob/6ec986c02fd2b2fa66f7dca5507b951e5c15d9af/Labs/CreateAndManageResourceCatalag.md)
 
 [Managing Lifecycle of External Users](https://github.com/RichardJ7/Microsoft-Entra-ID-/blob/e04c876d0ca87bb64b8799bfa49a389688b137b9/Labs/ManagingLifecycleOfExternalUsers.md)
+
+[Creating Access Reviews](https://github.com/RichardJ7/Microsoft-Entra-ID-/blob/237c213f701f780626293fe4831867bc1ab62921/Labs/CreatingAccessReviews.md) 
